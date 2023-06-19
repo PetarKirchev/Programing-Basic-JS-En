@@ -1,0 +1,32 @@
+## Grunt intermediate storage
+.grunt
+
+## Dependency directory (npm)
+node_modules
+
+# Book build output
+_book
+
+# eBook build output
+*.epub
+*.mobi
+*.pdf
+
+**/*.DS_Store
+
+# VScode
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+/resources/Prepress-Scripts/Prepress-Book-in-MS-Word/obj
+/resources/Prepress-Scripts/Prepress-Book-in-MS-Word/.vs
+/resources/Prepress-Scripts/Prepress-Book-in-MS-Word/bin
+
+# PyCharm
+.idea/*
+
+# GitHub Pages deployment folder
+_gh-pages
